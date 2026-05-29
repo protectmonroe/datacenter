@@ -44,11 +44,16 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="font-bold mb-4">Contact Page Admin</h4>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base mb-4">
               <strong>Phone:</strong>
               <br />
               423-300-6330
             </p>
+            <Link href="/disclaimer">
+              <Button className="bg-background text-foreground hover:bg-background/90 font-bold">
+                DISCLAIMER
+              </Button>
+            </Link>
           </div>
         </div>
 
@@ -56,12 +61,6 @@ export default function Footer() {
         <div className="border-t border-background/30 pt-8">
           <p className="text-center text-sm md:text-base opacity-75">
             &copy; 2026 Protect Monroe. All rights reserved.
-          </p>
-          <p className="text-center text-xs md:text-sm opacity-60 mt-2">
-            Created by a Monroe County landowner.{' '}
-            <Link href="/disclaimer" className="hover:underline">
-              DISCLAIMER
-            </Link>
           </p>
         </div>
       </div>
