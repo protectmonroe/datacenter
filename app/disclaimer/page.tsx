@@ -34,7 +34,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-primary">Accuracy and Error Correction</h2>
             <p className="text-base md:text-lg leading-relaxed">
-              We strive for accuracy. If you believe information on this site is incorrect, please contact us with supporting documentation so we can review and correct any verified errors.
+              I strive for accuracy. If you believe information on this site is incorrect, please contact me with supporting documentation so I can review and correct any verified errors.
             </p>
           </section>
 
