@@ -40,9 +40,23 @@ export default function DisclaimerPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold mb-4 text-primary">Accuracy of Information</h2>
+            <h2 className="text-2xl font-bold mb-4 text-primary">First Amendment Protected Content</h2>
             <p className="text-base md:text-lg leading-relaxed">
-              While we strive to provide accurate and factual information, this website is maintained by volunteers. We encourage readers to verify information through official county sources and conduct their own research on topics of concern.
+              The content on this website represents opinion, commentary, and political advocacy protected under the First Amendment. Statements are based on publicly available information, personal analysis, and/or local government sources unless otherwise noted.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold mb-4 text-primary">Accuracy and Error Correction</h2>
+            <p className="text-base md:text-lg leading-relaxed">
+              We strive for accuracy. If you believe information on this site is incorrect, please contact us with supporting documentation so we can review and correct any verified errors.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold mb-4 text-primary">Independence and Non-Affiliation</h2>
+            <p className="text-base md:text-lg leading-relaxed">
+              This website is independently operated and is not affiliated with, endorsed by, or officially connected to any government agency, candidate, campaign, or political party unless explicitly stated.
             </p>
           </section>
         </div>
