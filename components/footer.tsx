@@ -62,6 +62,9 @@ export default function Footer() {
           <p className="text-center text-sm md:text-base opacity-75">
             &copy; 2026 Protect Monroe. All rights reserved.
           </p>
+          <p className="text-center text-xs md:text-sm opacity-60 mt-2">
+            Created by a Monroe County landowner.
+          </p>
         </div>
       </div>
     </footer>
