@@ -19,20 +19,6 @@ export default function DisclaimerPage() {
 
         <div className="bg-card text-card-foreground rounded-lg p-8 md:p-12 space-y-6">
           <section>
-            <h2 className="text-2xl font-bold mb-4 text-primary">Authorization and Endorsement</h2>
-            <p className="text-base md:text-lg leading-relaxed">
-              This website was created by a Monroe County landowner. It is not authorized or endorsed by any candidate, political organization, or elected official. The views and opinions expressed on this site represent the personal concerns of community members regarding industrial development in Monroe County.
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold mb-4 text-primary">Independent Initiative</h2>
-            <p className="text-base md:text-lg leading-relaxed">
-              Protect Monroe is an independent community initiative founded by local residents who are concerned about the potential impacts of large-scale data center development on our rural community. We are not affiliated with any political party, candidate, or organization.
-            </p>
-          </section>
-
-          <section>
             <h2 className="text-2xl font-bold mb-4 text-primary">Community Purpose</h2>
             <p className="text-base md:text-lg leading-relaxed">
               Our mission is to inform Monroe County residents about proposed industrial development projects and encourage civic participation in the decision-making process. We believe that community members should have accurate information and a voice in matters that affect their county.
