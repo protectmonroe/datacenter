@@ -41,7 +41,7 @@ export default function DisclaimerPage() {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-primary">Independence and Non-Affiliation</h2>
             <p className="text-base md:text-lg leading-relaxed">
-              This website is independently operated and is not affiliated with, endorsed by, or officially connected to any government agency, candidate, campaign, or political party unless explicitly stated.
+              This website is independently operated and is not affiliated with, endorsed by, or officially connected to any government agency, candidate, campaign, or political party.
             </p>
           </section>
         </div>
