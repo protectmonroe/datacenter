@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -57,7 +58,10 @@ export default function Footer() {
             &copy; 2026 Protect Monroe. All rights reserved.
           </p>
           <p className="text-center text-xs md:text-sm opacity-60 mt-2">
-            Created by a Monroe County landowner. Not authorized or endorsed by any candidate.
+            Created by a Monroe County landowner.{' '}
+            <Link href="/disclaimer" className="hover:underline">
+              DISCLAIMER
+            </Link>
           </p>
         </div>
       </div>
