@@ -16,7 +16,7 @@ export default function Navigation() {
             <div className="text-3xl font-bold text-primary">
               🌾
             </div>
-            <span className="font-bold text-lg md:text-xl text-foreground hidden sm:inline">
+            <span className="font-bold text-lg md:text-xl text-foreground">
               Protect Monroe TN
             </span>
           </Link>
