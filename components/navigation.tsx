@@ -23,17 +23,11 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex gap-8">
-            <a href="#hero" className="font-semibold text-foreground hover:text-primary">
-              The Proposal
-            </a>
             <a href="#facts" className="font-semibold text-foreground hover:text-primary">
               The Facts
             </a>
             <a href="#meetings" className="font-semibold text-foreground hover:text-primary">
               Meetings
-            </a>
-            <a href="#details" className="font-semibold text-foreground hover:text-primary">
-              Details & Action
             </a>
             <a href="#faq" className="font-semibold text-foreground hover:text-primary">
               FAQ
@@ -61,17 +55,11 @@ export default function Navigation() {
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
           <div className="md:hidden pb-6 space-y-3">
-            <a href="#hero" className="block font-semibold text-foreground hover:text-primary py-2">
-              The Proposal
-            </a>
             <a href="#facts" className="block font-semibold text-foreground hover:text-primary py-2">
               The Facts
             </a>
             <a href="#meetings" className="block font-semibold text-foreground hover:text-primary py-2">
               Meetings
-            </a>
-            <a href="#details" className="block font-semibold text-foreground hover:text-primary py-2">
-              Details & Action
             </a>
             <a href="#faq" className="block font-semibold text-foreground hover:text-primary py-2">
               FAQ
