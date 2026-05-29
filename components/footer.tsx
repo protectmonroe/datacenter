@@ -54,10 +54,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-background/30 pt-8">
           <p className="text-center text-sm md:text-base opacity-75">
-            &copy; 2024 Protect Monroe. All rights reserved.
+            &copy; 2026 Protect Monroe. All rights reserved.
           </p>
           <p className="text-center text-xs md:text-sm opacity-60 mt-2">
-            Paid for by Protect Monroe. Not authorized by any candidate.
+            Created by a Monroe County landowner. Not authorized or endorsed by any candidate.
           </p>
         </div>
       </div>
