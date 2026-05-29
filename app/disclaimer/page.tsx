@@ -25,13 +25,6 @@ export default function DisclaimerPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold mb-4 text-primary">Community Purpose</h2>
-            <p className="text-base md:text-lg leading-relaxed">
-              Our mission is to inform Monroe County residents about proposed industrial development projects and encourage civic participation in the decision-making process. We believe that community members should have accurate information and a voice in matters that affect their county.
-            </p>
-          </section>
-
-          <section>
             <h2 className="text-2xl font-bold mb-4 text-primary">First Amendment Protected Content</h2>
             <p className="text-base md:text-lg leading-relaxed">
               The content on this website represents opinion, commentary, and political advocacy protected under the First Amendment. Statements are based on publicly available information, personal analysis, and/or local government sources unless otherwise noted.
