@@ -28,6 +28,22 @@ export default function Home() {
   <p className="text-lg md:text-xl leading-relaxed text-center mb-6">
   A massive data center project is being considered outside Sweetwater, TN.
   </p>
+  </div>
+
+  {/* EMBEDDED VIDEO */}
+  <div className="w-full max-w-4xl mx-auto mb-12 md:mb-16">
+    <div className="relative w-full pb-[56.25%] bg-black rounded-lg overflow-hidden">
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src="https://www.youtube.com/embed/c7b9UHOhU0k?autoplay=1&mute=1"
+        title="Data Center Impact Video"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+
+  {/* DEMANDS SECTION */}
   <div className="text-lg md:text-xl leading-relaxed text-center mb-6">
   <p className="font-semibold mb-4">We need the County Commission to:</p>
   <ol className="text-left inline-block space-y-3">
@@ -52,20 +68,6 @@ export default function Home() {
   >
     Why Zoning?
   </button>
-  </div>
-  </div>
-
-  {/* EMBEDDED VIDEO */}
-  <div className="w-full max-w-4xl mx-auto mb-12 md:mb-16">
-    <div className="relative w-full pb-[56.25%] bg-black rounded-lg overflow-hidden">
-      <iframe
-        className="absolute top-0 left-0 w-full h-full"
-        src="https://www.youtube.com/embed/c7b9UHOhU0k?autoplay=1&mute=1"
-        title="Data Center Impact Video"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
   </div>
 
           {/* URGENT MEETING INFO */}
