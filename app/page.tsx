@@ -228,7 +228,7 @@ export default function Home() {
                   <h3 className="text-2xl font-bold mb-3 text-center">What Happens If We Wait</h3>
                   <div className="h-1 bg-gradient-to-r from-transparent via-foreground to-transparent mb-4"></div>
                   <p className="text-base md:text-lg leading-relaxed text-center">
-                    If plans are submitted, the company can use eminent domain to seize farmland and sue the county into approving the project. It has happened all over the country, and it can happen here.
+                    If plans are submitted, the company can use eminent domain to seize farmland and sue the county into approving the project. It has happened all over the USA, and it can happen here.
                   </p>
   <p className="text-base md:text-lg leading-relaxed text-center mt-4">
   <a href="https://www.yahoo.com/news/articles/family-fighting-home-georgia-power-002000121.html" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 hover:underline font-semibold">
@@ -248,10 +248,10 @@ export default function Home() {
                 </div>
 
                 <div className="bg-accent-foreground bg-opacity-20 rounded-lg p-6 border-l-4 border-accent-foreground text-foreground">
-                  <h3 className="text-2xl font-bold mb-3 text-center">Who Can Protect Us</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-center">Why Do We Need Zoning?</h3>
                   <div className="h-1 bg-gradient-to-r from-transparent via-foreground to-transparent mb-4"></div>
                   <p className="text-base md:text-lg leading-relaxed text-center">
-                    The County Commission decides and can pass this with a simple majority vote. Our sources say DJ Seiler is the only one who has expressed interest in slowing things down.
+                    The County Commission does not have the legal power to stop data centers without a zoning code. Once they start the process, <em>even if it&apos;s not done yet</em>, they can vote for a one year pause on data center construction.
                   </p>
                 </div>
               </div>
