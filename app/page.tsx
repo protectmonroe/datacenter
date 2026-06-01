@@ -44,8 +44,8 @@ export default function Home() {
   </div>
 
   {/* DEMANDS SECTION */}
-  <div className="rounded-lg p-8 mb-16 md:mb-20 bg-primary-foreground bg-opacity-10 backdrop-blur-sm">
-    <div className="text-lg md:text-xl leading-relaxed text-center mb-6">
+  <div className="rounded-lg p-8 mb-16 md:mb-20">
+    <div className="text-lg md:text-xl leading-relaxed text-center mb-6 text-primary-foreground">
       <p className="font-semibold mb-4">We need the County Commission to:</p>
       <ol className="text-left inline-block space-y-3">
         <li className="flex items-start gap-3">
@@ -65,7 +65,7 @@ export default function Home() {
     <div className="text-center">
       <button 
         onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-        className="text-lg md:text-xl px-8 py-3 bg-primary-foreground text-primary rounded-lg hover:bg-opacity-90 transition-all font-semibold shadow-lg hover:shadow-xl"
+        className="text-lg md:text-xl px-8 py-3 bg-primary-foreground text-primary rounded-lg hover:opacity-90 transition-opacity font-semibold"
       >
         Why Zoning?
       </button>
