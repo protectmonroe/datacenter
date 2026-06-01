@@ -394,7 +394,7 @@ export default function Home() {
             <ul className="text-lg text-stone-700 space-y-4 mb-6">
               <li>• <span className="font-bold">Be nice</span> - they are your neighbors</li>
               <li>• Tell them: <span className="font-bold">No data centers on farmland in Monroe County.</span></li>
-              <li>• <span className="font-bold">Fill out the form</span> for 5 minutes speaking time at the meeting.</li>
+              <li>• <span className="font-bold">Fill out the form at the clerk's office</span> for 5 minutes speaking time at the meeting.</li>
             </ul>
 
             <div className="flex gap-3">
