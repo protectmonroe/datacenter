@@ -216,36 +216,6 @@ export default function Home() {
             HOW WE CAN STOP IT
           </h2>
 
-          {/* WHY ZONING FIRST */}
-          <div className="bg-amber-600 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-white mb-4 text-center">WHY ZONING IS NECESSARY:</h3>
-            <ul className="text-xl space-y-4">
-              <li>• The County Commission <span className="font-bold">cannot legally stop</span> data centers right now</li>
-              <li>• Without zoning rules, they have <span className="font-bold">no legal power</span> to say no</li>
-              <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a <span className="font-bold">1 year pause</span></li>
-              <li>• <span className="font-bold">We believe our Commissioners are the right people for the job.</span></li>
-            </ul>
-          </div>
-
-          {/* THE SOLUTION */}
-          <div className="bg-stone-700 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-amber-400 mb-4">WE NEED THE COUNTY COMMISSION TO:</h3>
-            <ul className="text-xl space-y-4">
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 font-bold text-2xl">1.</span>
-                <span><span className="font-bold">Say NO publicly</span> to data centers on farmland</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 font-bold text-2xl">2.</span>
-                <span><span className="font-bold">START a zoning plan</span> - this gives them legal power</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-amber-400 font-bold text-2xl">3.</span>
-                <span><span className="font-bold">Vote for a 1-year pause</span> while zoning is finished</span>
-              </li>
-            </ul>
-          </div>
-
           {/* WHY WE NEED TO ACT NOW */}
           <div className="bg-red-700 rounded-lg p-6 mb-6">
             <h3 className="text-2xl font-black text-white mb-4">WHY WE MUST ACT NOW:</h3>
@@ -266,7 +236,7 @@ export default function Home() {
           </div>
 
           {/* SEE WHAT HAPPENED */}
-          <div className="bg-stone-900 rounded-lg p-6 border-2 border-stone-600">
+          <div className="bg-stone-900 rounded-lg p-6 border-2 border-stone-600 mb-6">
             <h3 className="text-2xl font-black text-white mb-4">THIS HAS HAPPENED BEFORE:</h3>
             <div className="space-y-3">
               <Link 
@@ -291,6 +261,36 @@ export default function Home() {
                 See what happened in Texas &rarr;
               </Link>
             </div>
+          </div>
+
+          {/* THE SOLUTION */}
+          <div className="bg-stone-700 rounded-lg p-6 mb-6">
+            <h3 className="text-2xl font-black text-amber-400 mb-4">WE NEED THE COUNTY COMMISSION TO:</h3>
+            <ul className="text-xl space-y-4">
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 font-bold text-2xl">1.</span>
+                <span><span className="font-bold">Say NO publicly</span> to data centers on farmland</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 font-bold text-2xl">2.</span>
+                <span><span className="font-bold">START a zoning plan</span> - this gives them legal power</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <span className="text-amber-400 font-bold text-2xl">3.</span>
+                <span><span className="font-bold">Vote for a 1-year pause</span> while zoning is finished</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* WHY ZONING FIRST */}
+          <div className="bg-amber-600 rounded-lg p-6 mb-6">
+            <h3 className="text-2xl font-black text-white mb-4 text-center">WHY ZONING IS NECESSARY:</h3>
+            <ul className="text-xl space-y-4">
+              <li>• The County Commission <span className="font-bold">cannot legally stop</span> data centers right now</li>
+              <li>• Without zoning rules, they have <span className="font-bold">no legal power</span> to say no</li>
+              <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a <span className="font-bold">1 year pause</span></li>
+              <li>• <span className="font-bold">We believe our Commissioners are the right people for the job.</span></li>
+            </ul>
           </div>
 
         </div>
