@@ -37,7 +37,7 @@ export default function Home() {
     </li>
     <li className="flex items-start gap-3">
       <span className="font-bold flex-shrink-0">2.</span>
-      <span>Start working on a zoning plan</span>
+      <span>Start working on a zoning plan.</span>
     </li>
     <li className="flex items-start gap-3">
       <span className="font-bold flex-shrink-0">3.</span>
@@ -46,7 +46,7 @@ export default function Home() {
   </ol>
   </div>
   <div className="text-center">
-  <Link href="#details" className="text-lg md:text-xl underline hover:opacity-80 transition-opacity">
+  <Link href="#details" className="text-lg md:text-xl underline text-blue-600 hover:text-blue-800 transition-colors">
   Why Zoning?
   </Link>
   </div>
