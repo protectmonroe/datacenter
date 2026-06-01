@@ -61,7 +61,7 @@ export default function Home() {
       <div className="space-y-5 mb-10">
         <div className="animate-slideInUp stagger-item-1 group">
           <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-secondary">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
               1
             </div>
             <div className="pt-1 flex-grow">
@@ -74,7 +74,7 @@ export default function Home() {
 
         <div className="animate-slideInUp stagger-item-2 group">
           <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-secondary">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
               2
             </div>
             <div className="pt-1 flex-grow">
@@ -87,7 +87,7 @@ export default function Home() {
 
         <div className="animate-slideInUp stagger-item-3 group">
           <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-secondary">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
               3
             </div>
             <div className="pt-1 flex-grow">
