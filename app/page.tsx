@@ -65,7 +65,7 @@ export default function Home() {
               1
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-white leading-relaxed">
+              <p className="text-lg text-black leading-relaxed">
                 <span className="font-semibold">Announce publicly</span> that they will not support data centers on farmland in Monroe County.
               </p>
             </div>
@@ -78,7 +78,7 @@ export default function Home() {
               2
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-white leading-relaxed">
+              <p className="text-lg text-black leading-relaxed">
                 <span className="font-semibold">Start working on a zoning plan</span> immediately to establish legal protection.
               </p>
             </div>
@@ -91,7 +91,7 @@ export default function Home() {
               3
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-white leading-relaxed">
+              <p className="text-lg text-black leading-relaxed">
                 <span className="font-semibold">Vote on a 1 year pause</span> on all data center projects while we get the facts.
               </p>
             </div>
