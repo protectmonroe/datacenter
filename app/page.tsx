@@ -340,7 +340,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-6 border-2 border-stone-200">
               <h3 className="text-xl font-black text-stone-900 mb-2">Is zoning bad for property owners?</h3>
               <p className="text-lg text-stone-700 mb-4">
-                <span className="font-bold">No.</span> All our Commissioners support property rights. They&apos;re the perfect people for the job.
+                <span className="font-bold">No. </span>All our Commissioners support property rights. They&apos;re the perfect people for the job.
               </p>
               <ul className="text-lg text-stone-700 space-y-2 ml-4">
                 <li>• Stop data centers to protect our rural way of life</li>
