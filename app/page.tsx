@@ -18,118 +18,163 @@ export default function Home() {
       <Navigation />
       
       {/* HERO SECTION - ABOVE THE FOLD */}
-      <section id="hero" className="bg-primary text-primary-foreground">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20">
-          {/* Core Message */}
-  <div className="mb-8 md:mb-12">
-  <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-balance text-center">
-  No Data Centers In Monroe County.
-  </h1>
-  <p className="text-lg md:text-xl leading-relaxed text-center mb-6">
-  A massive data center project is being considered outside Sweetwater, TN.<br/><br/>Now is the time to speak up.
-  </p>
-  </div>
-
-  {/* EMBEDDED VIDEO */}
-  <div className="w-full max-w-4xl mx-auto mb-12 md:mb-16">
-    <div className="relative w-full pb-[56.25%] bg-black rounded-lg overflow-hidden">
-      <iframe
-        className="absolute top-0 left-0 w-full h-full"
-        src="https://www.youtube.com/embed/c7b9UHOhU0k?autoplay=1&mute=1"
-        title="Data Center Impact Video"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </div>
-  </div>
-
-  {/* DEMANDS SECTION */}
-  <div className="animate-slideInUp">
-    <div className="bg-amber-900 rounded-lg p-6 md:p-8 mb-12 md:mb-16 shadow-lg">
-      {/* Header */}
-      <div className="text-center mb-6">
-        <h2 className="text-2xl md:text-3xl font-bold text-amber-50 mb-1">
-          How To Stop It
-        </h2>
-        <p className="text-base md:text-lg text-amber-100">
-          Three steps for the County Commission to protect Monroe County's farmland:
-        </p>
-      </div>
-
-      {/* Demands List */}
-      <ol className="space-y-3 mb-7">
-        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
-            1
+      <section id="hero" className="bg-stone-900 text-white min-h-[85vh] flex flex-col justify-center">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+          {/* Urgent Badge */}
+          <div className="flex justify-center mb-4">
+            <span className="inline-flex items-center gap-2 bg-red-600 text-white text-sm font-bold px-4 py-1.5 rounded-full uppercase tracking-wide animate-pulse">
+              Urgent: Act Now
+            </span>
           </div>
-          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
-            <span className="font-black">Announce publicly</span> they will not support data centers on farmland.
+
+          {/* Main Headline */}
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-center leading-none mb-4 tracking-tight">
+            STOP DATA CENTERS
+            <span className="block text-amber-400">IN MONROE COUNTY</span>
+          </h1>
+          
+          {/* Subheadline */}
+          <p className="text-lg md:text-xl text-stone-300 text-center max-w-2xl mx-auto mb-8">
+            A massive data center threatens our farmland in Sweetwater, TN. 
+            <span className="text-white font-semibold"> The time to act is now.</span>
           </p>
-        </li>
 
-        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
-            2
-          </div>
-          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
-            <span className="font-black">Start a zoning plan</span> immediately to prove legal intent.
-          </p>
-        </li>
-
-        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
-            3
-          </div>
-          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
-            <span className="font-black">Vote on a 1-year pause</span> on data center projects.
-          </p>
-        </li>
-      </ol>
-
-      {/* CTA Button */}
-      <div className="flex justify-center">
-        <button 
-          onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-          aria-label="Learn more about why zoning is important"
-          className="group relative px-8 py-2.5 bg-amber-100 text-amber-900 rounded font-bold text-base hover:shadow-md transform hover:scale-105 transition-all duration-300"
-        >
-          <span className="relative z-10 flex items-center gap-1.5">
-            Why Zoning Matters
-            <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-            </svg>
-          </span>
-        </button>
-      </div>
-    </div>
-  </div>
-
-          {/* URGENT MEETING INFO */}
-          <div className="bg-accent bg-opacity-20 border-l-4 border-accent p-6 rounded mb-8 md:mb-12">
-            <p className="text-lg font-bold mb-2">
-              ⚠️ NEXT COUNTY COMMISSION MEETING
-            </p>
-            <p className="text-xl md:text-2xl font-bold mb-4">
-              Tuesday, June 23rd • 5:00 PM
-            </p>
-            <p className="text-base md:text-lg mb-4">
-              Monroe County Courthouse<br/>
-              Madisonville, TN
-            </p>
-            <p className="text-sm md:text-base mb-4">
-              We need everyone there. Fill out the form at the Clerk's office for 5 minutes speaking time.
-            </p>
-            <div className="flex flex-col gap-3">
-            <Button 
-              onClick={() => setShowCallModal(true)}
-              className="w-full bg-red-600 hover:bg-red-700 text-white font-bold text-lg py-6 md:py-8"
-            >
-              Call the County Clerk's Office
-            </Button>
+          {/* Video */}
+          <div className="w-full max-w-3xl mx-auto">
+            <div className="relative w-full pb-[56.25%] bg-black rounded-lg overflow-hidden shadow-2xl border border-stone-700">
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/c7b9UHOhU0k?autoplay=1&mute=1"
+                title="Data Center Impact Video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
 
-          {/* MAIN ACTION BUTTONS */}
+          {/* Scroll Indicator */}
+          <div className="flex justify-center mt-8">
+            <button 
+              onClick={() => document.getElementById('action-steps')?.scrollIntoView({ behavior: 'smooth' })}
+              className="text-stone-400 hover:text-white transition-colors flex flex-col items-center gap-1"
+              aria-label="Scroll to action steps"
+            >
+              <span className="text-sm font-medium">What You Can Do</span>
+              <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* ACTION STEPS SECTION - FIRST SCROLL */}
+      <section id="action-steps" className="bg-amber-50 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Section Header */}
+          <div className="text-center mb-10">
+            <h2 className="text-3xl md:text-4xl font-black text-stone-900 mb-2 uppercase tracking-tight">
+              How To Stop It
+            </h2>
+            <p className="text-lg text-stone-600">
+              Three steps for the County Commission to protect our farmland:
+            </p>
+          </div>
+
+          {/* Action Cards */}
+          <div className="space-y-4 mb-10">
+            <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-red-600 hover:shadow-lg transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-600 flex items-center justify-center font-black text-xl text-white">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-black text-stone-900 mb-1">
+                    ANNOUNCE PUBLICLY
+                  </h3>
+                  <p className="text-stone-600 text-lg">
+                    They will not support data centers on farmland in Monroe County.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-amber-500 hover:shadow-lg transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-500 flex items-center justify-center font-black text-xl text-white">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-black text-stone-900 mb-1">
+                    START ZONING PLAN
+                  </h3>
+                  <p className="text-stone-600 text-lg">
+                    Begin immediately to prove legal intent and establish authority.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-stone-800 hover:shadow-lg transition-shadow">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 rounded-full bg-stone-800 flex items-center justify-center font-black text-xl text-white">
+                  3
+                </div>
+                <div>
+                  <h3 className="text-xl md:text-2xl font-black text-stone-900 mb-1">
+                    VOTE 1-YEAR PAUSE
+                  </h3>
+                  <p className="text-stone-600 text-lg">
+                    Halt all data center projects while we gather the facts.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Button */}
+          <div className="flex justify-center">
+            <button 
+              onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
+              className="bg-stone-900 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-stone-800 transition-colors flex items-center gap-2"
+            >
+              Why Zoning Matters
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* URGENT MEETING INFO */}
+      <section className="bg-red-700 text-white py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-wide text-red-200 mb-1">
+                Next County Commission Meeting
+              </p>
+              <p className="text-2xl md:text-3xl font-black">
+                Tuesday, June 23rd at 5:00 PM
+              </p>
+              <p className="text-red-100">
+                Monroe County Courthouse, Madisonville, TN
+              </p>
+            </div>
+            <button 
+              onClick={handleCallNow}
+              className="bg-white text-red-700 px-6 py-3 rounded-lg font-bold text-lg hover:bg-red-50 transition-colors whitespace-nowrap"
+            >
+              Call the Clerk&apos;s Office
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA BUTTONS */}
+      <section className="bg-stone-100 py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             <Link href="https://www.facebook.com/groups/communitydata/" target="_blank">
               <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg py-8">
@@ -137,12 +182,11 @@ export default function Home() {
               </Button>
             </Link>
             <Link href="https://www.change.org/p/petition-no-industrial-scale-data-centers-in-monroe-county-tn" target="_blank">
-              <Button className="w-full bg-white hover:bg-gray-100 text-primary font-bold text-lg py-8">
+              <Button className="w-full bg-white hover:bg-gray-100 text-stone-900 border-2 border-stone-300 font-bold text-lg py-8">
                 Sign The Petition
               </Button>
             </Link>
           </div>
-
         </div>
       </section>
 
