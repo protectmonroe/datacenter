@@ -95,7 +95,6 @@ export default function Home() {
             <ul className="text-lg text-stone-700 space-y-2 ml-4">
               <li>• Phone: <span className="font-bold">(423) 442-5948</span></li>
               <li>• Say: &quot;I want to speak at the meeting about data centers&quot;</li>
-              <li>• Ask to fill out the form</li>
             </ul>
             <button 
               onClick={() => setShowCallModal(true)}
