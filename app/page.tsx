@@ -25,9 +25,31 @@ export default function Home() {
   <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-balance text-center">
   No Data Centers In Monroe County.
   </h1>
-  <p className="text-lg md:text-xl leading-relaxed text-center">
-  A massive data center project is being considered outside Sweetwater, TN.<br/><br/>We need the County Commission to start the zoning process so they have legal standing to put a <span className="font-bold underline">1 year pause on all data center projects</span> while we get the facts.
+  <p className="text-lg md:text-xl leading-relaxed text-center mb-6">
+  A massive data center project is being considered outside Sweetwater, TN.
   </p>
+  <div className="text-lg md:text-xl leading-relaxed text-center mb-6">
+  <p className="font-semibold mb-4">We need the County Commission to:</p>
+  <ol className="text-left inline-block space-y-3">
+    <li className="flex items-start gap-3">
+      <span className="font-bold flex-shrink-0">1.</span>
+      <span>Announce publicly that they do not support data centers on farmland in Monroe County.</span>
+    </li>
+    <li className="flex items-start gap-3">
+      <span className="font-bold flex-shrink-0">2.</span>
+      <span>Start working on a zoning plan</span>
+    </li>
+    <li className="flex items-start gap-3">
+      <span className="font-bold flex-shrink-0">3.</span>
+      <span>Vote on a <span className="font-bold underline">1 year pause on all data center projects</span> while we get the facts.</span>
+    </li>
+  </ol>
+  </div>
+  <div className="text-center">
+  <Link href="#details" className="text-lg md:text-xl underline hover:opacity-80 transition-opacity">
+  Why Zoning?
+  </Link>
+  </div>
   </div>
 
   {/* EMBEDDED VIDEO */}
