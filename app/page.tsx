@@ -170,7 +170,7 @@ export default function Home() {
 
           {/* THE PROBLEM */}
           <div className="bg-stone-100 rounded-lg p-6 mb-6 border-2 border-stone-300">
-            <h3 className="text-2xl font-black text-red-700 mb-4">THE PROBLEM:</h3>
+            <h3 className="text-2xl font-black text-red-700 mb-4 text-center">THE PROBLEM:</h3>
             <ul className="text-xl text-stone-800 space-y-4">
               <li>• <span className="font-bold">Big tech companies</span> want to build a data center near Sweetwater</li>
               <li>• They want to take <span className="font-bold">100+ acres of farmland</span></li>
@@ -237,7 +237,7 @@ export default function Home() {
 
           {/* SEE WHAT HAPPENED */}
           <div className="bg-stone-900 rounded-lg p-6 border-2 border-stone-600 mb-6">
-            <h3 className="text-2xl font-black text-white mb-4">THIS HAS HAPPENED BEFORE:</h3>
+            <h3 className="text-2xl font-black text-white mb-4 text-center">THIS HAS HAPPENED BEFORE:</h3>
             <div className="space-y-3">
               <Link 
                 href="https://www.yahoo.com/news/articles/family-fighting-home-georgia-power-002000121.html"
@@ -265,11 +265,11 @@ export default function Home() {
 
           {/* THE SOLUTION */}
           <div className="bg-stone-700 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-amber-400 mb-4">WE NEED THE COUNTY COMMISSION TO:</h3>
+            <h3 className="text-2xl font-black text-amber-400 mb-4 text-center">WE NEED THE COUNTY COMMISSION TO:</h3>
             <ul className="text-xl space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">1.</span>
-                <span><span className="font-bold">Say NO publicly</span> to data centers on farmland</span>
+                <span><span className="font-bold">Publicly say NO</span> to data centers on farmland</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">2.</span>
