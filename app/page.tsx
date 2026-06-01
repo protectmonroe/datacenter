@@ -46,9 +46,12 @@ export default function Home() {
   </ol>
   </div>
   <div className="text-center">
-  <Link href="#details" className="text-lg md:text-xl underline text-blue-600 hover:text-blue-800 transition-colors">
-  Why Zoning?
-  </Link>
+  <button 
+    onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
+    className="text-lg md:text-xl px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors font-semibold"
+  >
+    Why Zoning?
+  </button>
   </div>
   </div>
 
