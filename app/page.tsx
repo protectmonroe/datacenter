@@ -181,7 +181,7 @@ export default function Home() {
           {/* MAP IMAGE */}
           <div className="bg-stone-200 rounded-lg p-2 mb-6">
             <img 
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Capture.PNG-aXRoiRKIUJvt4EmM4La1qu3fGKWve9.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Capture.PNG-DPEUDUQ0Q90jLuEyWHUb6YPzBzvIHj.png"
               alt="Map showing the location near Sweetwater"
               className="w-full rounded"
             />
