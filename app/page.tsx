@@ -45,14 +45,14 @@ export default function Home() {
 
   {/* DEMANDS SECTION */}
   <div className="animate-slideInUp">
-    <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-2xl p-10 md:p-14 mb-16 md:mb-20 border border-white border-opacity-20 shadow-lg">
+    <div className="bg-secondary rounded-2xl p-10 md:p-14 mb-16 md:mb-20 border-2 border-secondary-foreground shadow-lg">
       {/* Header */}
       <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-secondary-foreground mb-2">
           We Need Action Now
         </h2>
-        <div className="h-1 w-16 bg-gradient-to-r from-transparent via-primary-foreground to-transparent mx-auto mb-4 opacity-50"></div>
-        <p className="text-lg text-primary-foreground opacity-90">
+        <div className="h-1 w-16 bg-gradient-to-r from-transparent via-secondary-foreground to-transparent mx-auto mb-4 opacity-70"></div>
+        <p className="text-lg text-secondary-foreground opacity-95">
           The County Commission must take these steps to protect Monroe County:
         </p>
       </div>
@@ -60,12 +60,12 @@ export default function Home() {
       {/* Demands List */}
       <div className="space-y-5 mb-10">
         <div className="animate-slideInUp stagger-item-1 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-15 transition-all duration-300 border border-white border-opacity-10 group-hover:border-opacity-30">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-xl text-primary-foreground">
+          <div className="flex items-start gap-4 p-5 rounded-xl bg-secondary-foreground bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 border-2 border-secondary-foreground border-opacity-30 group-hover:border-opacity-60">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-secondary-foreground flex items-center justify-center font-bold text-xl text-secondary">
               1
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-primary-foreground leading-relaxed">
+              <p className="text-lg text-secondary-foreground leading-relaxed">
                 <span className="font-semibold">Announce publicly</span> that they will not support data centers on farmland in Monroe County.
               </p>
             </div>
@@ -73,12 +73,12 @@ export default function Home() {
         </div>
 
         <div className="animate-slideInUp stagger-item-2 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-15 transition-all duration-300 border border-white border-opacity-10 group-hover:border-opacity-30">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-xl text-primary-foreground">
+          <div className="flex items-start gap-4 p-5 rounded-xl bg-secondary-foreground bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 border-2 border-secondary-foreground border-opacity-30 group-hover:border-opacity-60">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-secondary-foreground flex items-center justify-center font-bold text-xl text-secondary">
               2
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-primary-foreground leading-relaxed">
+              <p className="text-lg text-secondary-foreground leading-relaxed">
                 <span className="font-semibold">Start working on a zoning plan</span> immediately to establish legal protection.
               </p>
             </div>
@@ -86,12 +86,12 @@ export default function Home() {
         </div>
 
         <div className="animate-slideInUp stagger-item-3 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-5 hover:bg-opacity-15 transition-all duration-300 border border-white border-opacity-10 group-hover:border-opacity-30">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center font-bold text-xl text-primary-foreground">
+          <div className="flex items-start gap-4 p-5 rounded-xl bg-secondary-foreground bg-opacity-10 hover:bg-opacity-20 transition-all duration-300 border-2 border-secondary-foreground border-opacity-30 group-hover:border-opacity-60">
+            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-secondary-foreground flex items-center justify-center font-bold text-xl text-secondary">
               3
             </div>
             <div className="pt-1 flex-grow">
-              <p className="text-lg text-primary-foreground leading-relaxed">
+              <p className="text-lg text-secondary-foreground leading-relaxed">
                 <span className="font-semibold">Vote on a 1 year pause</span> on all data center projects while we get the facts.
               </p>
             </div>
@@ -103,7 +103,7 @@ export default function Home() {
       <div className="flex justify-center">
         <button 
           onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-          className="group relative px-10 py-4 bg-primary-foreground text-primary rounded-full font-bold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 overflow-hidden"
+          className="group relative px-10 py-4 bg-primary text-secondary rounded-full font-bold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 overflow-hidden"
         >
           <span className="relative z-10 flex items-center gap-2">
             Learn Why Zoning Matters
@@ -111,7 +111,6 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </span>
-          <div className="absolute inset-0 bg-gradient-to-r from-white to-primary-foreground opacity-0 group-hover:opacity-10 transition-opacity"></div>
         </button>
       </div>
     </div>
