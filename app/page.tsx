@@ -49,7 +49,7 @@ export default function Home() {
       {/* Header */}
       <div className="text-center mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
-          We Need Action Now
+          How To Stop It
         </h2>
         <div className="h-1 w-16 bg-gradient-to-r from-transparent via-white to-transparent mx-auto mb-4 opacity-70"></div>
         <p className="text-lg text-white opacity-95">
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
             <div className="pt-1 flex-grow">
               <p className="text-lg text-black leading-relaxed">
-                <span className="font-semibold">Start working on a zoning plan</span> immediately to establish legal protection.
+                <span className="font-semibold">Start working on a zoning plan</span> immediately to prove legal intent.
               </p>
             </div>
           </div>
