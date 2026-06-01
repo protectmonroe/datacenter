@@ -26,7 +26,7 @@ export default function Home() {
   No Data Centers In Monroe County.
   </h1>
   <p className="text-lg md:text-xl leading-relaxed text-center mb-6">
-  A massive data center project is being considered outside Sweetwater, TN.
+  A massive data center project is being considered outside Sweetwater, TN.<br/><br/>Now is the time to speak up.
   </p>
   </div>
 
