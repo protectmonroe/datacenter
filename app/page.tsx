@@ -45,44 +45,43 @@ export default function Home() {
 
   {/* DEMANDS SECTION */}
   <div className="animate-slideInUp">
-    <div className="bg-secondary rounded-2xl p-10 md:p-14 mb-16 md:mb-20 border-2 border-secondary shadow-lg">
+    <div className="bg-amber-900 rounded-lg p-6 md:p-8 mb-12 md:mb-16 shadow-lg">
       {/* Header */}
-      <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
+      <div className="text-center mb-6">
+        <h2 className="text-2xl md:text-3xl font-bold text-amber-50 mb-1">
           How To Stop It
         </h2>
-        <div className="h-1 w-16 bg-gradient-to-r from-transparent via-white to-transparent mx-auto mb-4 opacity-70"></div>
-        <p className="text-lg text-white opacity-95">
-          The County Commission must take these steps to protect Monroe County:
+        <p className="text-base md:text-lg text-amber-100">
+          Three steps for the County Commission to protect Monroe County's farmland:
         </p>
       </div>
 
       {/* Demands List */}
-      <ol className="space-y-5 mb-10">
-        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+      <ol className="space-y-3 mb-7">
+        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
             1
           </div>
-          <p className="text-lg text-black leading-relaxed pt-1">
-            <span className="font-semibold">Announce publicly</span> that they will not support data centers on farmland in Monroe County.
+          <p className="text-base text-amber-50 leading-snug pt-0.5">
+            <span className="font-semibold">Announce publicly</span> they will not support data centers on farmland.
           </p>
         </li>
 
-        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
             2
           </div>
-          <p className="text-lg text-black leading-relaxed pt-1">
-            <span className="font-semibold">Start working on a zoning plan</span> immediately to prove legal intent.
+          <p className="text-base text-amber-50 leading-snug pt-0.5">
+            <span className="font-semibold">Start a zoning plan</span> immediately to prove legal intent.
           </p>
         </li>
 
-        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
             3
           </div>
-          <p className="text-lg text-black leading-relaxed pt-1">
-            <span className="font-semibold">Vote on a 1 year pause</span> on all data center projects while we get the facts.
+          <p className="text-base text-amber-50 leading-snug pt-0.5">
+            <span className="font-semibold">Vote on a 1-year pause</span> on data center projects.
           </p>
         </li>
       </ol>
@@ -92,11 +91,11 @@ export default function Home() {
         <button 
           onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
           aria-label="Learn more about why zoning is important"
-          className="group relative px-10 py-4 bg-white text-secondary rounded-full font-bold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 overflow-hidden"
+          className="group relative px-8 py-2.5 bg-amber-100 text-amber-900 rounded font-bold text-base hover:shadow-md transform hover:scale-105 transition-all duration-300"
         >
-          <span className="relative z-10 flex items-center gap-2">
-            Learn Why Zoning Matters
-            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <span className="relative z-10 flex items-center gap-1.5">
+            Why Zoning Matters
+            <svg className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </span>
