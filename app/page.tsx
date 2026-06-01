@@ -58,30 +58,30 @@ export default function Home() {
 
       {/* Demands List */}
       <ol className="space-y-3 mb-7">
-        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
+        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
             1
           </div>
-          <p className="text-base text-amber-50 leading-snug pt-0.5">
-            <span className="font-semibold">Announce publicly</span> they will not support data centers on farmland.
+          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
+            <span className="font-black">Announce publicly</span> they will not support data centers on farmland.
           </p>
         </li>
 
-        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
+        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
             2
           </div>
-          <p className="text-base text-amber-50 leading-snug pt-0.5">
-            <span className="font-semibold">Start a zoning plan</span> immediately to prove legal intent.
+          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
+            <span className="font-black">Start a zoning plan</span> immediately to prove legal intent.
           </p>
         </li>
 
-        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-3 p-4 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
-          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900">
+        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-3 p-5 rounded-lg bg-amber-800 hover:bg-amber-700 transition-all duration-300 border border-amber-600 group-hover:border-amber-500">
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center font-bold text-lg text-amber-900 flex-shrink-0 mt-0.5">
             3
           </div>
-          <p className="text-base text-amber-50 leading-snug pt-0.5">
-            <span className="font-semibold">Vote on a 1-year pause</span> on data center projects.
+          <p className="text-lg md:text-xl font-bold text-amber-50 leading-snug pt-0.5">
+            <span className="font-black">Vote on a 1-year pause</span> on data center projects.
           </p>
         </li>
       </ol>
