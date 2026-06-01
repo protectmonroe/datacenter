@@ -213,7 +213,7 @@ export default function Home() {
         <div className="max-w-3xl mx-auto px-4">
           
           <h2 className="text-3xl md:text-4xl font-black text-center mb-8">
-            HOW WE CAN WIN
+            HOW WE CAN STOP IT
           </h2>
 
           {/* WHY ZONING FIRST */}
@@ -250,7 +250,7 @@ export default function Home() {
           <div className="bg-red-700 rounded-lg p-6 mb-6">
             <h3 className="text-2xl font-black text-white mb-4">WHY WE MUST ACT NOW:</h3>
             <ul className="text-xl space-y-4">
-              <li>• Once they file paperwork, it is <span className="font-bold">too late</span></li>
+              <li>• Once a company files paperwork, it is <span className="font-bold">too late</span></li>
               <li>• They can <span className="font-bold">take land by force</span> (eminent domain)</li>
               <li>• They can <span className="font-bold">sue the county</span> to approve it</li>
             </ul>
