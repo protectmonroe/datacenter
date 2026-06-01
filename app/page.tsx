@@ -218,18 +218,18 @@ export default function Home() {
 
           {/* WHY ZONING FIRST */}
           <div className="bg-amber-600 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-white mb-4 text-center">WHY ZONING COMES FIRST:</h3>
+            <h3 className="text-2xl font-black text-white mb-4 text-center">WHY ZONING IS NECESSARY:</h3>
             <ul className="text-xl space-y-4">
               <li>• The County Commission <span className="font-bold">cannot legally stop</span> data centers right now</li>
               <li>• Without zoning rules, they have <span className="font-bold">no legal power</span> to say no</li>
               <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a <span className="font-bold">1 year pause</span></li>
-              <li>• <span className="font-bold">Zoning = Legal standing = Power to protect us</span></li>
+              <li>• <span className="font-bold">We believe our Commissioners are the right people for the job.</span></li>
             </ul>
           </div>
 
           {/* THE SOLUTION */}
           <div className="bg-stone-700 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-amber-400 mb-4">THE THREE STEPS:</h3>
+            <h3 className="text-2xl font-black text-amber-400 mb-4">WE NEED THE COUNTY COMMISSION TO:</h3>
             <ul className="text-xl space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">1.</span>
@@ -312,7 +312,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-6 border-2 border-stone-200">
               <h3 className="text-xl font-black text-stone-900 mb-2">What is a data center?</h3>
               <p className="text-lg text-stone-700">
-                A big building full of computers. It uses lots of electricity and water.
+                A warehouse full of computers for companies like Google and Facebook. It uses lots of electricity and water, and uses industrial fans to cool off the building.
               </p>
             </div>
 
@@ -333,7 +333,7 @@ export default function Home() {
             <div className="bg-white rounded-lg p-6 border-2 border-stone-200">
               <h3 className="text-xl font-black text-stone-900 mb-2">Are we against all development?</h3>
               <p className="text-lg text-stone-700">
-                <span className="font-bold">No.</span> We support businesses that create real jobs. Data centers do not.
+                <span className="font-bold">No.</span> We support ALL business that create real jobs for real people. Data centers do not.
               </p>
             </div>
 
