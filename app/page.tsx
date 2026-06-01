@@ -394,8 +394,8 @@ export default function Home() {
             
             <ul className="text-lg text-stone-700 space-y-4 mb-6">
               <li>• <span className="font-bold">Be nice</span> - they are your neighbors</li>
-              <li>• Say you want to <span className="font-bold">speak at the meeting</span></li>
-              <li>• Ask about the <span className="font-bold">form you need to fill out</span></li>
+              <li>• Tell them: <span className="font-bold">No data centers on farmland in Monroe County.</span></li>
+              <li>• <span className="font-bold">Fill out the form</span> at the Clerk&apos;s office to speak at the meeting.</li>
             </ul>
 
             <div className="flex gap-3">
