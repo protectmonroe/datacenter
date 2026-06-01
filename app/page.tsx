@@ -44,30 +44,32 @@ export default function Home() {
   </div>
 
   {/* DEMANDS SECTION */}
-  <div className="text-lg md:text-xl leading-relaxed text-center mb-6">
-  <p className="font-semibold mb-4">We need the County Commission to:</p>
-  <ol className="text-left inline-block space-y-3">
-    <li className="flex items-start gap-3">
-      <span className="font-bold flex-shrink-0">1.</span>
-      <span>Announce publicly that they do not support data centers on farmland in Monroe County.</span>
-    </li>
-    <li className="flex items-start gap-3">
-      <span className="font-bold flex-shrink-0">2.</span>
-      <span>Start working on a zoning plan.</span>
-    </li>
-    <li className="flex items-start gap-3">
-      <span className="font-bold flex-shrink-0">3.</span>
-      <span>Vote on a <span className="font-bold underline">1 year pause on all data center projects</span> while we get the facts.</span>
-    </li>
-  </ol>
-  </div>
-  <div className="text-center mb-16 md:mb-20">
-  <button 
-    onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
-    className="text-lg md:text-xl px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors font-semibold"
-  >
-    Why Zoning?
-  </button>
+  <div className="border-2 border-blue-600 rounded-lg p-8 mb-16 md:mb-20">
+    <div className="text-lg md:text-xl leading-relaxed text-center mb-6">
+      <p className="font-semibold mb-4">We need the County Commission to:</p>
+      <ol className="text-left inline-block space-y-3">
+        <li className="flex items-start gap-3">
+          <span className="font-bold flex-shrink-0">1.</span>
+          <span>Announce publicly that they will not support data centers on farmland in Monroe County.</span>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="font-bold flex-shrink-0">2.</span>
+          <span>Start working on a zoning plan.</span>
+        </li>
+        <li className="flex items-start gap-3">
+          <span className="font-bold flex-shrink-0">3.</span>
+          <span>Vote on a <span className="font-bold underline">1 year pause on all data center projects</span> while we get the facts.</span>
+        </li>
+      </ol>
+    </div>
+    <div className="text-center">
+      <button 
+        onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
+        className="text-lg md:text-xl px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors font-semibold"
+      >
+        Why Zoning?
+      </button>
+    </div>
   </div>
 
           {/* URGENT MEETING INFO */}
