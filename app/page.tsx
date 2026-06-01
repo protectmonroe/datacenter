@@ -61,7 +61,7 @@ export default function Home() {
     </li>
   </ol>
   </div>
-  <div className="text-center">
+  <div className="text-center mb-16 md:mb-20">
   <button 
     onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
     className="text-lg md:text-xl px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-800 transition-colors font-semibold"
