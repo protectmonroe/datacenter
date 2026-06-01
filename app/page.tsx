@@ -192,7 +192,7 @@ export default function Home() {
 
           {/* WHY IT IS BAD */}
           <div className="bg-red-50 rounded-lg p-6 border-2 border-red-200">
-            <h3 className="text-2xl font-black text-red-700 mb-4">WHY IT IS BAD:</h3>
+            <h3 className="text-2xl font-black text-red-700 mb-4 text-center">WHY IT IS BAD:</h3>
             <ul className="text-xl text-stone-800 space-y-4">
               <li>• <span className="font-bold">Higher electric bills</span> for everyone</li>
               <li>• <span className="font-bold">Loud noise</span> from fans running 24/7</li>
@@ -218,11 +218,11 @@ export default function Home() {
 
           {/* WHY ZONING FIRST */}
           <div className="bg-amber-600 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-white mb-4">WHY ZONING COMES FIRST:</h3>
+            <h3 className="text-2xl font-black text-white mb-4 text-center">WHY ZONING COMES FIRST:</h3>
             <ul className="text-xl space-y-4">
               <li>• The County Commission <span className="font-bold">cannot legally stop</span> data centers right now</li>
               <li>• Without zoning rules, they have <span className="font-bold">no legal power</span> to say no</li>
-              <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a pause</li>
+              <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a <span className="font-bold">1 year pause</span></li>
               <li>• <span className="font-bold">Zoning = Legal standing = Power to protect us</span></li>
             </ul>
           </div>
