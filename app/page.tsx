@@ -98,7 +98,7 @@ export default function Home() {
               <li>• Ask to fill out the form</li>
             </ul>
             <button 
-              onClick={handleCallNow}
+              onClick={() => setShowCallModal(true)}
               className="mt-4 w-full bg-red-600 text-white text-xl font-bold py-4 rounded-lg hover:bg-red-700"
             >
               TAP TO CALL NOW
@@ -360,7 +360,7 @@ export default function Home() {
 
           <div className="flex flex-col gap-4 max-w-md mx-auto">
             <button 
-              onClick={handleCallNow}
+              onClick={() => setShowCallModal(true)}
               className="w-full bg-white text-red-700 text-xl font-bold py-4 rounded-lg hover:bg-red-50"
             >
               CALL NOW: (423) 442-5948
