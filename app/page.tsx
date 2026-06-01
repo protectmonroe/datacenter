@@ -217,34 +217,81 @@ export default function Home() {
             HOW WE CAN WIN
           </h2>
 
+          {/* WHY ZONING FIRST */}
+          <div className="bg-amber-600 rounded-lg p-6 mb-6">
+            <h3 className="text-2xl font-black text-white mb-4">WHY ZONING COMES FIRST:</h3>
+            <ul className="text-xl space-y-4">
+              <li>• The County Commission <span className="font-bold">cannot legally stop</span> data centers right now</li>
+              <li>• Without zoning rules, they have <span className="font-bold">no legal power</span> to say no</li>
+              <li>• Once zoning starts, <span className="font-bold underline">even if not finished</span>, they CAN vote for a pause</li>
+              <li>• <span className="font-bold">Zoning = Legal standing = Power to protect us</span></li>
+            </ul>
+          </div>
+
           {/* THE SOLUTION */}
           <div className="bg-stone-700 rounded-lg p-6 mb-6">
-            <h3 className="text-2xl font-black text-amber-400 mb-4">THE COUNTY CAN STOP THIS:</h3>
+            <h3 className="text-2xl font-black text-amber-400 mb-4">THE THREE STEPS:</h3>
             <ul className="text-xl space-y-4">
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">1.</span>
-                <span><span className="font-bold">Say NO</span> to data centers on farmland</span>
+                <span><span className="font-bold">Say NO publicly</span> to data centers on farmland</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">2.</span>
-                <span><span className="font-bold">Start a zoning plan</span> to protect us</span>
+                <span><span className="font-bold">START a zoning plan</span> - this gives them legal power</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-amber-400 font-bold text-2xl">3.</span>
-                <span><span className="font-bold">Vote for a 1-year pause</span> on all data centers</span>
+                <span><span className="font-bold">Vote for a 1-year pause</span> while zoning is finished</span>
               </li>
             </ul>
           </div>
 
           {/* WHY WE NEED TO ACT NOW */}
-          <div className="bg-red-700 rounded-lg p-6">
+          <div className="bg-red-700 rounded-lg p-6 mb-6">
             <h3 className="text-2xl font-black text-white mb-4">WHY WE MUST ACT NOW:</h3>
             <ul className="text-xl space-y-4">
               <li>• Once they file paperwork, it is <span className="font-bold">too late</span></li>
               <li>• They can <span className="font-bold">take land by force</span> (eminent domain)</li>
               <li>• They can <span className="font-bold">sue the county</span> to approve it</li>
-              <li>• This has happened in <span className="font-bold">Georgia, Michigan, and Texas</span></li>
             </ul>
+            <p className="text-lg mt-4">
+              <Link 
+                href="https://thebaynet.com/how-ndas-fueled-calvert-countys-explosive-data-center-controversy/"
+                target="_blank"
+                className="text-amber-300 hover:text-amber-100 underline font-bold"
+              >
+                Read how data centers use secret NDAs to file paperwork before anyone knows
+              </Link>
+            </p>
+          </div>
+
+          {/* SEE WHAT HAPPENED */}
+          <div className="bg-stone-900 rounded-lg p-6 border-2 border-stone-600">
+            <h3 className="text-2xl font-black text-white mb-4">THIS HAS HAPPENED BEFORE:</h3>
+            <div className="space-y-3">
+              <Link 
+                href="https://www.yahoo.com/news/articles/family-fighting-home-georgia-power-002000121.html"
+                target="_blank"
+                className="block bg-stone-800 hover:bg-stone-700 p-4 rounded-lg text-xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
+              >
+                See what happened in Georgia &rarr;
+              </Link>
+              <Link 
+                href="https://thesuntimesnews.com/an-inside-glimpse-at-a-no-win-decision-for-saline-township-leaders/"
+                target="_blank"
+                className="block bg-stone-800 hover:bg-stone-700 p-4 rounded-lg text-xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
+              >
+                See what happened in Michigan &rarr;
+              </Link>
+              <Link 
+                href="https://www.texastribune.org/2026/05/12/texas-hill-county-approves-data-center-construction-pause-ai/"
+                target="_blank"
+                className="block bg-stone-800 hover:bg-stone-700 p-4 rounded-lg text-xl font-bold text-amber-400 hover:text-amber-300 transition-colors"
+              >
+                See what happened in Texas &rarr;
+              </Link>
+            </div>
           </div>
 
         </div>
