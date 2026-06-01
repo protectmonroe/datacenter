@@ -35,8 +35,8 @@ export default function Home() {
           
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-stone-300 text-center max-w-2xl mx-auto mb-8">
-            A massive data center threatens our farmland in Sweetwater, TN. 
-            <span className="text-white font-semibold"> The time to act is now.</span>
+            A massive data center threatens our farmland in Sweetwater, TN.<br/><br/>
+            <span className="text-white font-semibold">It&apos;s time to speak up.</span>
           </p>
 
           {/* Video */}
