@@ -58,56 +58,45 @@ export default function Home() {
       </div>
 
       {/* Demands List */}
-      <div className="space-y-5 mb-10">
-        <div className="animate-slideInUp stagger-item-1 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
-              1
-            </div>
-            <div className="pt-1 flex-grow">
-              <p className="text-lg text-black leading-relaxed">
-                <span className="font-semibold">Announce publicly</span> that they will not support data centers on farmland in Monroe County.
-              </p>
-            </div>
+      <ol className="space-y-5 mb-10">
+        <li className="animate-slideInUp stagger-item-1 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
+          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+            1
           </div>
-        </div>
+          <p className="text-lg text-black leading-relaxed pt-1">
+            <span className="font-semibold">Announce publicly</span> that they will not support data centers on farmland in Monroe County.
+          </p>
+        </li>
 
-        <div className="animate-slideInUp stagger-item-2 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
-              2
-            </div>
-            <div className="pt-1 flex-grow">
-              <p className="text-lg text-black leading-relaxed">
-                <span className="font-semibold">Start working on a zoning plan</span> immediately to prove legal intent.
-              </p>
-            </div>
+        <li className="animate-slideInUp stagger-item-2 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
+          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+            2
           </div>
-        </div>
+          <p className="text-lg text-black leading-relaxed pt-1">
+            <span className="font-semibold">Start working on a zoning plan</span> immediately to prove legal intent.
+          </p>
+        </li>
 
-        <div className="animate-slideInUp stagger-item-3 group">
-          <div className="flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
-            <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
-              3
-            </div>
-            <div className="pt-1 flex-grow">
-              <p className="text-lg text-black leading-relaxed">
-                <span className="font-semibold">Vote on a 1 year pause</span> on all data center projects while we get the facts.
-              </p>
-            </div>
+        <li className="animate-slideInUp stagger-item-3 group flex items-start gap-4 p-5 rounded-xl bg-white bg-opacity-15 hover:bg-opacity-25 transition-all duration-300 border-2 border-white border-opacity-30 group-hover:border-opacity-60">
+          <div className="flex-shrink-0 w-12 h-12 rounded-full bg-white flex items-center justify-center font-bold text-xl text-black">
+            3
           </div>
-        </div>
-      </div>
+          <p className="text-lg text-black leading-relaxed pt-1">
+            <span className="font-semibold">Vote on a 1 year pause</span> on all data center projects while we get the facts.
+          </p>
+        </li>
+      </ol>
 
       {/* CTA Button */}
       <div className="flex justify-center">
         <button 
           onClick={() => document.getElementById('details')?.scrollIntoView({ behavior: 'smooth' })}
+          aria-label="Learn more about why zoning is important"
           className="group relative px-10 py-4 bg-white text-secondary rounded-full font-bold text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-300 overflow-hidden"
         >
           <span className="relative z-10 flex items-center gap-2">
             Learn Why Zoning Matters
-            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
             </svg>
           </span>
